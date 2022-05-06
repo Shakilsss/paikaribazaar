@@ -49,7 +49,7 @@
 
     <nav class=" navbar navbar-expand-lg navbar-dark bg-dark shadow-lg border-bottom sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><span class="h3" style="text-shadow:1px 2px 3px white ;">P</span><span>aikari</span> <span class="h3" style="text-shadow:1px 2px 3px white ;">B</span><span>azaar</span> </a>
+            <a class="navbar-brand" href="index.html"><span class="h4" style="text-shadow:1px 2px 3px white ;">P</span><span>aikari</span> <span class="h4" style="text-shadow:1px 2px 3px white ;">B</span><span>azaar</span> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -62,7 +62,10 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Shop Now</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Category
           </a>
@@ -74,19 +77,97 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link">Contact Us</a>
                     </li>
                 </ul>
                 <form class="d-flex ms-auto">
                     <input class="form-control me-2 form-control-sm" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+                    <button class="btn btn-outline-primary btn-sm" type="submit">Search</button>
                 </form>
+                <button class="btn btn-outline-light btn-sm ms-2" type="submit" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</button>
+                <!-- <button class="btn btn-outline-success btn-sm ms-2" type="submit">Login</button>
+                <button class="btn btn-outline-warning btn-sm ms-2" type="submit">Register</button> -->
             </div>
 
         </div>
     </nav>
+
+    <!-- <button class="btn btn-primary" type="button" >Toggle right offcanvas</button> -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Your Cartt</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="imgs/slider3.jpg" height="100px" width="100px">
+                    </div>
+                    <div class="col">
+                        <p>New Products</p>
+                        <span>1</span> X <span> TK: 350</span>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-sm btn-danger">X</button>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col">
+                        <img src="imgs/slider3.jpg" height="100px" width="100px">
+                    </div>
+                    <div class="col">
+                        <p>New Products</p>
+                        <span>1</span> X <span> TK: 350</span>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-sm btn-danger">X</button>
+                    </div>
+                </div>
+
+
+                <div class="row mt-3">
+                    <div class="col">
+                        <img src="imgs/slider3.jpg" height="100px" width="100px">
+                    </div>
+                    <div class="col">
+                        <p>New Products</p>
+                        <span>1</span> X <span> TK: 350</span>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-sm btn-danger">X</button>
+                    </div>
+                </div>
+
+
+                <div class="row mt-3">
+                    <div class="col">
+                        <span class="h4">Total : </span><span class="h5"> TK. 950</span>
+                    </div>
+
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col">
+                        <button class="btn btn-sm btn-primary">View Cart</button>
+                        <button class="btn btn-sm btn-success">Check Out</button>
+
+                    </div>
+                    <!-- <div class="col"> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <div id="carouselExampleDark" class="carousel carousel-dark slide container responsive" data-bs-ride="carousel">
         <div class="carousel-indicators">
