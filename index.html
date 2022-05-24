@@ -13,12 +13,12 @@
     <title>Paikari Bazaar BD</title>
 </head>
 
-<body style="background: currentColor;">
+<body style="background: linear-gradient(90deg,#092c5f, #5d03c4) !important;">
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></button>
 
-    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark shadow-lg border-bottom sticky-top">
+    <nav class=" navbar navbar-expand-lg navbar-dark   sticky-top" style="background:linear-gradient(45deg,#053887, #007180) !important">
         <div class="container">
-            <a class="navbar-brand d-none d-sm-flex" href="index.html"><span class="h4" style="text-shadow:1px 2px 3px white ;">P</span><span>aikari </span> <span class="h4" style="text-shadow:1px 2px 3px white ;">B</span><span>azaar</span> </a>
+            <a class="navbar-brand d-none d-sm-flex" href="index.html"><span class="h4" style="text-shadow:2px 2px 3px white ">P</span><span>aikari </span> <span class="h4" style="text-shadow:1px 2px 3px white ;">B</span><span>azaar</span> </a>
             <a class="navbar-brand d-flex d-sm-none" href="index.html"><span class="h4" style="text-shadow:1px 2px 3px white ;">P</span><span class="h4" style="text-shadow:1px 2px 3px white ;">.B</span></a>
             <form class="d-flex d-lg-none d-md-flex">
                 <input class="form-control form-control-sm border bg-dark text-white" type="search" placeholder="Search" aria-label="Search">
@@ -62,8 +62,8 @@
                     </li>
                 </ul>
                 <form class="d-flex ms-auto d-none d-lg-flex">
-                    <input class="form-control form-control-sm border bg-dark text-white" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light  btn-sm btn-border-square" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <input class="form-control form-control-sm btn-outline-light" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info  btn-sm btn-border-square" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </form>
                 <button class="btn btn-outline-light btn-sm d-lg-block d-none ms-2" type="submit" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"> </i> <span class="badge bg-danger"> 4</span></button>
                 <!-- <button class="btn btn-outline-success btn-sm ms-2" type="submit">Login</button>
@@ -128,23 +128,23 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="imgs/slider1.jpg" height="350px" class="d-block w-100" alt="...">
+                <img src="imgs/slider3.jpg" height="350px" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
+                    <h5 class="text-light fw-bold ">First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="imgs/slider2.jpg" height="350px" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h5 class="text-light fw-bold">Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="imgs/slider3.jpg" height="350px" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5 class="text-light fw-bold">Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
@@ -164,62 +164,67 @@
     <div class="container mt-5">
         <div class="row">
             <h3 class="text-white">Featured Products</h3>
-            <hr class="text-white border-bottom shadow-lg mb-5 mt-2">
+            <hr class=" border-bottom border-bottom-white  mb-5 mt-2">
 
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
+            <div class="col-lg-3 col-md-4 col-sm-12 d-sm-w-100 mb-5">
+                <div class="card border-light  shadow-sm">
                     <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
-                    <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
+                        <h5 class="card-title ">Card title</h5>
+                        <span class="card-text ">TK: 350</span> <span>View details</span><br/>
+                        <a href="#" class="btn btn-outline-success mt-2 btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order</a>
+                        <a href="#" class="btn btn-outline-primary mt-2 btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add Cart</a>
                     </div>
 
 
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
-                    <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
+
+            <div class="col-lg-3 col-md-4 col-sm-12 mb-5">
+                <div class="card border-light  shadow-sm">
+                    <img id="f_image " src="imgs/slider3.jpg " height="200px " class="card-img-top p-2 " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Card title</h5>
+                        <span class="card-text ">TK: 350</span> <span>View</span><br/>
+                        <a href="# " class="btn btn-outline-success mt-2 btn-sm "> <i class="fa fa-plus " aria-hidden="true "></i> Order</a>
+                        <a href="# " class="btn btn-outline-primary mt-2 btn-sm "> <i class="fa fa-shopping-cart " aria-hidden="true "></i> Add Cart</a>
                     </div>
 
 
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
-                    <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
+            <div class="col-lg-3 col-md-4 col-sm-12 d-sm-w-100 mb-5 ">
+                <div class="card border-light shadow-sm ">
+                    <img id="f_image " src="imgs/slider3.jpg " height="200px " class="card-img-top p-2 " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Card title</h5>
+                        <span class="card-text ">TK: 350</span> <span>View</span><br/>
+                        <a href="# " class="btn btn-outline-success mt-2 btn-sm "> <i class="fa fa-plus " aria-hidden="true "></i> Order</a>
+                        <a href="# " class="btn btn-outline-primary mt-2 btn-sm "> <i class="fa fa-shopping-cart " aria-hidden="true "></i> Add Cart</a>
                     </div>
 
 
                 </div>
             </div>
+
+
+            <div class="col-lg-3 col-md-4 col-sm-12 mb-5 ">
+                <div class="card border-light shadow-sm ">
+                    <img id="f_image " src="imgs/slider3.jpg " height="200px " class="card-img-top p-2 " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Card title</h5>
+                        <span class="card-text ">TK: 350</span> <span>View</span><br/>
+                        <a href="# " class="btn btn-outline-success mt-2 btn-sm "> <i class="fa fa-plus " aria-hidden="true "></i> Order</a>
+                        <a href="# " class="btn btn-outline-primary mt-2 btn-sm "> <i class="fa fa-shopping-cart " aria-hidden="true "></i> Add Cart</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
 
 
 
@@ -232,21 +237,19 @@
 
 
 
-    <div class="container mt-5">
+    <div class="container mt-5 ">
         <div class="row ">
-            <h3 class="text-white">New Products</h3>
-            <hr class="text-white border-bottom shadow-lg">
+            <h3 class="text-white ">New Products</h3>
+            <hr class="text-white border-bottom shadow-lg mb-5 mt-2 ">
 
-
-
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
-                    <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
+            <div class="col-lg-3 col-md-4 col-sm-12 d-sm-w-100 mb-5 ">
+                <div class="card border-light shadow-sm " style="width: 13rem; ">
+                    <img id="f_image " src="imgs/slider3.jpg " height="200px " class="card-img-top p-2 " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Card title</h5>
+                        <span class="card-text ">TK: 350</span> <span>View</span><br/>
+                        <a href="# " class="btn btn-outline-success mt-2 btn-sm "> <i class="fa fa-plus " aria-hidden="true "></i> Order</a>
+                        <a href="# " class="btn btn-outline-primary mt-2 btn-sm "> <i class="fa fa-shopping-cart " aria-hidden="true "></i> Add Cart</a>
                     </div>
 
 
@@ -254,49 +257,20 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
-                    <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
+            <div class="col-lg-3 col-md-4 col-sm-12 mb-5 ">
+                <div class="card border-light shadow-sm " style="width: 13rem; ">
+                    <img id="f_image " src="imgs/slider3.jpg " height="200px " class="card-img-top p-2 " alt="... ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Card title</h5>
+                        <span class="card-text ">TK: 350</span> <span>View</span><br/>
+                        <a href="# " class="btn btn-outline-success mt-2 btn-sm "> <i class="fa fa-plus " aria-hidden="true "></i> Order</a>
+                        <a href="# " class="btn btn-outline-primary mt-2 btn-sm "> <i class="fa fa-shopping-cart " aria-hidden="true "></i> Add Cart</a>
                     </div>
 
 
                 </div>
             </div>
 
-
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
-                    <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
-                    </div>
-
-
-                </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
-                <div class="card bg-dark border-light  shadow-sm" style="width: 16rem;">
-                    <img id="f_image" src="imgs/slider3.jpg" height="200px" class="card-img-top p-2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white">Card title</h5>
-                        <p class="card-text text-white">TK: 350</p>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-plus" aria-hidden="true"></i> Order Now</a>
-                        <a href="#" class="btn btn-outline-light btn-sm "> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Card</a>
-                    </div>
-
-
-                </div>
-            </div>
 
 
 
@@ -316,58 +290,58 @@
 
 
 
-    <div class="container mt-5">
-        <footer class=" border-top">
+    <div class="container mt-5 ">
+        <footer class=" border-top ">
             <div class="row ">
-                <div class="col-2">
+                <div class="col-2 ">
                     <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
                     </ul>
                 </div>
 
-                <div class="col-2">
+                <div class="col-2 ">
                     <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
                     </ul>
                 </div>
 
-                <div class="col-2">
+                <div class="col-2 ">
                     <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Home</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Features</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">Pricing</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">FAQs</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-muted ">About</a></li>
                     </ul>
                 </div>
 
-                <div class="col-4 offset-1">
+                <div class="col-4 offset-1 ">
                     <form>
-                        <h5 class="text-white mt-5">Subscribe to our newsletter</h5>
-                        <p class="text-white">Monthly digest of whats new and exciting from us.</p>
-                        <div class="d-flex w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        <h5 class="text-white mt-5 ">Subscribe to our newsletter</h5>
+                        <p class="text-white ">Monthly digest of whats new and exciting from us.</p>
+                        <div class="d-flex w-100 gap-2 ">
+                            <label for="newsletter1 " class="visually-hidden ">Email address</label>
+                            <input id="newsletter1 " type="text " class="form-control " placeholder="Email address ">
+                            <button class="btn btn-primary " type="button ">Subscribe</button>
                         </div>
                     </form>
                 </div>
             </div>
 
-            <div class="d-flex justify-content-between border-top mt-3">
-                <p class="text-white mt-1">&copy; 2022 <a href="index.html" class="text-white">Paikari Bazzar</a>. All rights reserved.</p>
-                <ul class="list-unstyled d-flex">
+            <div class="d-flex justify-content-between border-top mt-3 ">
+                <p class="text-white mt-1 ">&copy; 2022 <a href="index.html " class="text-white ">Paikari Bazzar</a>. All rights reserved.</p>
+                <ul class="list-unstyled d-flex ">
 
                 </ul>
             </div>
@@ -375,9 +349,9 @@
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 
-    <script src="js/js.js"></script>
+    <script src="js/js.js "></script>
 </body>
 
 </html>
